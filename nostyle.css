@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: brown;
+    color: white;
+}
+
+.no {
+    color: white; /* Change color to white */
+    background-color: rgb(75, 8, 8); /* Change background color to brown */
+}

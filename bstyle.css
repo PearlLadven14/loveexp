@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(350, 73%, 75%);
+}
+
+.card {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #f5b4b4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(22, 21, 24, 0.1);
+}
+
+.header {
+    background-color: #f13434;
+    color: #f3ebeb;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+}
