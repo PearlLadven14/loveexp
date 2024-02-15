@@ -1,0 +1,68 @@
+/* *{padding: 0;margin: 0;}
+.container{height: 100vh;;
+           width: 100vw;
+        color: #444;
+        background:rgb(235, 155, 188);
+        text-align: center;}
+.love{padding-top:35% ;
+    text-align: center;
+
+h2{font-size: 65px; 
+    text-align: center;
+    margin-bottom: 30px;}
+}
+    .love span{color:rgb(89, 155, 209);}
+.love a{text-decoration:double;
+        background: #eee;
+        padding: 5px;
+        margin: 5px 10px;
+        border: 3px solid #ddd;
+        border-radius: 10px;}
+#no{color: red;}
+#yes{color: rgb(16, 148, 16);} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: rgb(235, 155, 188);
+    text-align: center;
+}
+
+.love {
+    text-align: center;
+}
+
+.love h2 {
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.love span {
+    color: rgb(89, 155, 209);
+}
+
+.love a {
+    text-decoration: none; /* I've changed it from 'double' to 'underline' */
+    background: #eee;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+#no {
+    color: red;
+}
+
+#yes {
+    color: green;
+}
